@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		560BDBA421C3441C008039B8 /* GHDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 560BDBA321C3441C008039B8 /* GHDog.m */; };
+		560BDBA721C35C28008039B8 /* NSObject+GHKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 560BDBA621C35C28008039B8 /* NSObject+GHKVO.m */; };
 		5611977221C2C37600B71360 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5611977121C2C37600B71360 /* AppDelegate.m */; };
 		5611977521C2C37600B71360 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5611977421C2C37600B71360 /* ViewController.m */; };
 		5611977821C2C37600B71360 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5611977621C2C37600B71360 /* Main.storyboard */; };
@@ -15,6 +17,7 @@
 		5611978021C2C37800B71360 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5611977F21C2C37800B71360 /* main.m */; };
 		5611978A21C2C37800B71360 /* KVO_SelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5611978921C2C37800B71360 /* KVO_SelTests.m */; };
 		5611979521C2C37800B71360 /* KVO_SelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5611979421C2C37800B71360 /* KVO_SelUITests.m */; };
+		561197A721C2C3FE00B71360 /* GHUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 561197A621C2C3FE00B71360 /* GHUser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		560BDBA221C3441C008039B8 /* GHDog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHDog.h; sourceTree = "<group>"; };
+		560BDBA321C3441C008039B8 /* GHDog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHDog.m; sourceTree = "<group>"; };
+		560BDBA521C35C28008039B8 /* NSObject+GHKVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+GHKVO.h"; sourceTree = "<group>"; };
+		560BDBA621C35C28008039B8 /* NSObject+GHKVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+GHKVO.m"; sourceTree = "<group>"; };
 		5611976D21C2C37600B71360 /* KVO_Sel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KVO_Sel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5611977021C2C37600B71360 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5611977121C2C37600B71360 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +58,8 @@
 		5611979021C2C37800B71360 /* KVO_SelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KVO_SelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5611979421C2C37800B71360 /* KVO_SelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVO_SelUITests.m; sourceTree = "<group>"; };
 		5611979621C2C37800B71360 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		561197A521C2C3FE00B71360 /* GHUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHUser.h; sourceTree = "<group>"; };
+		561197A621C2C3FE00B71360 /* GHUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHUser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +112,14 @@
 			children = (
 				5611977021C2C37600B71360 /* AppDelegate.h */,
 				5611977121C2C37600B71360 /* AppDelegate.m */,
+				561197A521C2C3FE00B71360 /* GHUser.h */,
+				561197A621C2C3FE00B71360 /* GHUser.m */,
+				560BDBA221C3441C008039B8 /* GHDog.h */,
+				560BDBA321C3441C008039B8 /* GHDog.m */,
 				5611977321C2C37600B71360 /* ViewController.h */,
 				5611977421C2C37600B71360 /* ViewController.m */,
+				560BDBA521C35C28008039B8 /* NSObject+GHKVO.h */,
+				560BDBA621C35C28008039B8 /* NSObject+GHKVO.m */,
 				5611977621C2C37600B71360 /* Main.storyboard */,
 				5611977921C2C37800B71360 /* Assets.xcassets */,
 				5611977B21C2C37800B71360 /* LaunchScreen.storyboard */,
@@ -263,8 +278,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5611977521C2C37600B71360 /* ViewController.m in Sources */,
+				561197A721C2C3FE00B71360 /* GHUser.m in Sources */,
 				5611978021C2C37800B71360 /* main.m in Sources */,
+				560BDBA421C3441C008039B8 /* GHDog.m in Sources */,
 				5611977221C2C37600B71360 /* AppDelegate.m in Sources */,
+				560BDBA721C35C28008039B8 /* NSObject+GHKVO.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,7 +451,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = KVO_Sel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -441,6 +462,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gkh.KVO-Sel";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -449,7 +471,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = KVO_Sel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -457,6 +482,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gkh.KVO-Sel";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
